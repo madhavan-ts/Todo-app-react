@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  color: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body,
+input,
+form {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.list {
+  list-style-type: none;
+
+}
+
+:root {
+  --blue: hsl(220, 98%, 61%);
+  --teal: hsl(192, 100%, 67%);
+  --purple: hsl(280, 87%, 65%);
+}
+
+[data-theme="light"] {
+  --background: hsl(0, 0%, 98%);
+  --inactive-option-font-color: hsl(236, 9%, 61%);
+  --active-option-font-color: hsl(220, 98%, 61%);
+  --todo-background: white;
+  --active-todo-font-color: hsl(235, 19%, 35%);
+  --completed-todo-color: hsl(236, 9%, 61%);
+  --placeholder-color: hsl(233, 11%, 84%)
+}
+
+
+[data-theme="dark"] {
+  --background: hsl(235, 21%, 11%);
+  --inactive-option-font-color: hsl(234, 11%, 52%);
+  --active-option-font-color: hsl(220, 98%, 61%);
+  --todo-background: hsl(235, 24%, 19%);
+  --active-todo-font-color: hsl(234, 39%, 85%);
+  --placeholder-color: hsl(234, 11%, 52%);
+  --completed-todo-color: hsl(233, 14%, 35%);
+}
