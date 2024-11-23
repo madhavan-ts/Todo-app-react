@@ -95,8 +95,8 @@ function reducer(state, action) {
 
 function getInitialState() {
   let localState = JSON.parse(localStorage.getItem("TODO_STATE"));
-  console.log("Called getInitialState");
-  console.log(localState);
+  // console.log("Called getInitialState");
+  // console.log(localState);
 
   if (!localState) {
     return INITIAL_STATE;

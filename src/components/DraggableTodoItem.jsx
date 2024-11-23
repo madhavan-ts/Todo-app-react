@@ -22,7 +22,7 @@ function DraggableTodoItem({ item, dispatch, category }) {
     },
   });
 
-  console.log("active", activeIndex, "over", overIndex);
+  // console.log("active", activeIndex, "over", overIndex);
 
   const style = transform
     ? {
